@@ -1,0 +1,122 @@
+body {
+    overflow-x: hidden;
+}
+
+.container-egg-custom {
+    height: 800vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.row-egg-custom {
+    height: 100vh;
+}
+
+.row-egg-custom-pc{
+    height: 100vh;
+    margin-top: 400px;
+}
+
+.col-egg-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-egg {
+    height: 600px;
+    width: 600px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(253, 253, 253), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 80px rgb(255, 255, 255);
+}
+
+.simone{
+    background-image: url(/public/media/easteregg/simone2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marika{
+    background-image: url(/public/media/easteregg/marika.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.karty{
+    background-image: url(/public/media/easteregg/karty2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.omar{
+    background-image: url(/public/media/easteregg/omar2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-egg {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(255, 255, 255), 0 0 80px rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.title-egg {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0), 0 0 80px rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.title-egg-h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0), 0 0 80px rgb(0, 0, 0);
+    font-size: 80px;
+}
+
+.text-egg-title {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(255, 255, 255), 0 0 80px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.col-egg-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-image {
+    height: 900px;
+    width: 900px;
+
+}
+
+.screen {
+    height: 500px;
+    width: 817px;
+    margin-bottom: 306px;
+
+}
+
+.col-img-custom {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.col-img-custom2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    height: 900px;
+    width: 450px;
+    margin-left: 727px;
+}
